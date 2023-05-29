@@ -206,31 +206,39 @@ li {
 #teachers {
   padding: 100px 0;
 }
-#teachers .teachers_row {
+#teachers .teachers_title {
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+#teachers .teachers__row {
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
-#teachers .teachers_row .teachers_card {
+#teachers .teachers_card {
   width: 33.3333333333%;
   padding: 10px;
   text-align: center;
   box-shadow: inset 0 0 5px var(--custom-blue);
 }
-#teachers .teachers_row .teachers_card .teachers__img img {
+#teachers .teachers_card .teachers__img img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#teachers .teachers_row .teachers_card .teachers__content {
+#teachers .teachers_card .teachers__content {
   margin-top: 20px;
 }
-#teachers .teachers_row .teachers_card .teachers__content .teachers__content__title {
+#teachers .teachers_card .teachers__content .teachers__content__title {
   font-size: 25px;
   font-weight: 500;
 }
-#teachers .teachers_row .teachers_card .teachers__content .teachers__content__subtitle {
+#teachers .teachers_card .teachers__content .teachers__content__subtitle {
   margin: 10px 0;
   font-size: 18px;
   font-weight: 500;
